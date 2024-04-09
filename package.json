@@ -1,8 +1,7 @@
 {
-  "name": "league-broadcast",
-  "productName": "league-broadcast",
+  "name": "lol-separator-overlay",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "League of Legends Separator Overlay",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",

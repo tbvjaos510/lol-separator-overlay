@@ -6,7 +6,7 @@ contextBridge.exposeInMainWorld('api', {
   onUpdateSnapshot: (
     callback: (snapshot: string) => void,
   ) => {
-    const listener = (_, snapshot: any) =>
+    const listener = (_: any, snapshot: any) =>
       callback(snapshot);
 
     ipcRenderer.on('update-snapshot', listener);
