@@ -1,0 +1,25 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Indentation
+[*]
+indent_style = space
+indent_size = 2
+
+# End of line
+[*.{js,ts,jsx,tsx,html,css,scss}]
+end_of_line = lf
+
+# Charset
+[*.{js,ts,jsx,tsx,html,css,scss}]
+charset = utf-8
+
+# Trim trailing whitespace
+[*.{js,ts,jsx,tsx,html,css,scss}]
+trim_trailing_whitespace = true
+
+# Insert final newline
+[*.{js,ts,jsx,tsx,html,css,scss}]
+insert_final_newline = true
